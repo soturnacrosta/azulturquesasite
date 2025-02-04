@@ -410,16 +410,59 @@ mysqli_close($con);
 
     <aside>
 
-        <h3>Últimos posts</h3><br>
-
-        <a href="./sobre_nos.php" alt="Sobre nós">Sobre nós</a>
+        <h3>Arquivo</h3><br>
+        
+        <h4>Janeiro 2024</h4>
+        <br>
+        <a href="./materias/pusilanime_release.php" alt="Pusilânime release oficial">Pusilânime: Release Oficial</a>
             <ul>
-                <li>História da banda</li>
+                <li>Release Oficial</li>
                 <li>Curiosidades</li>
-                <li>Membros</li>
+                <li>Fotos</li>
             </ul>
         <br>
         <hr>
+        <br>
+
+        <h4>Junho 2023</h4>
+        <br>
+        <a href="./materias/anacoreta.php" alt="Anacoreta lyrics">Anacoreta English Lyrics</a>
+            <ul>
+                <li>English lyrics</li>
+                <li>Listen</li>
+                <li>Art</li>
+            </ul>
+        <br>
+        <hr>
+        <br>
+
+        <h4>Agosto 2022</h4>
+        <br>
+        <a href="./onde_ouvir.php" alt="Onde nos ouvir">Onde nos ouvir</a>
+            <ul>
+                <li>Links da banda</li>
+                <li>Streaming gratuito e pago</li>
+                <li>Várias opções</li>
+            </ul>
+        <br>
+        <br>
+
+        <a href="./letras.php" alt="Letras">Letras de nossas músicas</a>
+            <ul>
+                <li>Links da banda</li>
+                <li>Letras de nossas músicas</li>
+                <li>Todas em um único lugar</li>
+            </ul>
+        <br>
+        <br>
+
+        <a href="./fotos.php" alt="Fotos">Galeria de fotos</a>
+            <ul>
+                <li>Fotos da banda</li>
+                <li>Ensaios fotográficos</li>
+                <li>Todas as formações</li>
+            </ul>
+        <br>
         <br>
 
         <a href="./downloads.php" alt="Downloads">Downloads</a>
@@ -432,37 +475,26 @@ mysqli_close($con);
         <hr>
         <br>
 
-        <a href="./onde_ouvir.php" alt="Onde nos ouvir">Onde nos ouvir</a>
+        <h4>Fevereiro 2022</h4>
+        <br>
+        <a href="./materias/primeiro_ensaio.php" alt="Primeiro ensaio em estudio">Nosso primeiro ensaio em estúdio</a>
             <ul>
-                <li>Links da banda</li>
-                <li>Streaming gratuito e pago</li>
-                <li>Várias opções</li>
+                <li>Curiosidades</li>
+                <li>Histórias</li>
+                <li>Fotos</li>
             </ul>
         <br>
-        <hr>
         <br>
-
-        <a href="./letras.php" alt="Letras">Letras de nossas músicas</a>
+        <a href="./sobre_nos.php" alt="Sobre nos">Sobre nós</a>
             <ul>
-                <li>Links da banda</li>
-                <li>Letras de nossas músicas</li>
-                <li>Todas em um único lugar</li>
+                <li>História</li>
+                <li>Release</li>
+                <li>Poscionamento</li>
             </ul>
         <br>
-        <hr>
         <br>
 
-        <a href="./fotos.php" alt="Fotos">Galeria de fotos</a>
-            <ul>
-                <li>Fotos da banda</li>
-                <li>Ensaios fotográficos</li>
-                <li>Todas as formações</li>
-            </ul>
-        <br>
-        <hr>
-        <br>
-
-</aside>
+    </aside>
 
     <footer> <p>&copy; 2025 Azul Turquesa. Todos os direitos reservados.</p></footer>
 
