@@ -261,9 +261,16 @@ Dia 3:
 
 -Corrigidos erros na página Sobre nós; 
 
-- Páginas Primeiro ensaio em estúdio e Pusilânime: release oficial construídas; 
+- Páginas Primeiro ensaio em estúdio, Anacoreta – English Lyrics e Pusilânime: release oficial construídas; 
 
 - Corrigido o código para novas páginas onde, nas linhas 93, ID para a tabela pagina_tag seria a coluna tag_id; 
 
 - As novas páginas estão sendo inseridas no banco dados corretamente. Deve-se colocar manualmente os ID das páginas para enviar e exibir os comentários; 
+
+- Home Page refeita para atender as necessidades; 
+
+- Novo repositório remoto criado para atender as necessidades de segurança; 
+
+- Atualizações enviadas para o website para novos testes. 
+
 
