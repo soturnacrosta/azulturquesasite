@@ -264,7 +264,8 @@ mysqli_close($con);
 
         <div class="mainpage-container">
 
-            <h2>Sobre nós</h2><br>
+            <h2>Sobre nós</h2>
+            <h5>20 de Fevereiro 2022</h5><br>
             <div class="mainpage-container1">
                 <!--a primeira postagem tem sua foto maior que as outras como padrão -->
                 <img src="./azulTurquesa_website/assets/img/materias/sobre_nos/soturna-azulTurquesa.jpg" alt="Soturna Crosta da banda de black metal paraibana Azul Turquesa"  width="500" height="auto" class="left-img"><br>
@@ -278,7 +279,8 @@ mysqli_close($con);
           
 
             <br>
-            <h2>Pusilânime: Release Oficial</h2><br>
+            <h2>Pusilânime: Release Oficial</h2>
+            <h5>5 de Janeiro 2024</h5><br>
             <div class="mainpage-container2">
                 <img src="./azulTurquesa_website/assets/img/materias/pusilanime_release/pusilanime-release.jpg" alt="Pusilânime capa Azul Turquesa"  width="300" height="auto" class="left-img"><br>
                 <p>É com imenso orgulho que a banda paraibana de Doom/Black Metal Azul Turquesa anuncia seu primeiro EP oficial intitulado Pusilânime.
@@ -293,9 +295,10 @@ mysqli_close($con);
             <br><br>
            
 
-            
+        
             <br>
-            <h2>Nosso primeiro ensaio em estúdio</h2><br>
+            <h2>Nosso primeiro ensaio em estúdio</h2>
+            <h5>25 de Fevereiro 2022</h5><br>
             <div class="mainpage-container3">
                 <img src="./azulTurquesa_website/assets/img/materias/primeiro_ensaio_em_estudio/primeiro-ensaio-em-estudio-azul-turquesa.jpg" alt="Azul Turquesa em seu primeiro ensaio com ex-membros"  width="300" height="auto" class="left-img"><br>
                 <p>Soturna Cröstä:
@@ -307,7 +310,8 @@ mysqli_close($con);
             
 
             <br>
-            <h2>Anacoreta - English Lyrics</h2><br>
+            <h2>Anacoreta - English Lyrics</h2>
+            <h5>28 de Junho 2023</h5><br>
             <div class="mainpage-container4">
                 <img src="./azulTurquesa_website/assets/img/materias/anacoreta-english/azul-turquesa-anacoreta.jpg" alt="Azul Turquesa anacoreta capa"  width="300" height="auto" class="left-img"><br>
                 <p>Anacoreta/Anchoress
@@ -450,7 +454,8 @@ mysqli_close($con);
             <br><br>
                 
             <br>
-            <h2>Downloads</h2><br>
+            <h2>Downloads</h2>
+            <h5>5 de Agosto 2022</h5><br>
             <div class="mainpage-container2">
                 <img src="./azulTurquesa_website/assets/img/materias/downloads/Pusilanime-Azul-Turquesa.jpg" alt="Pusilânime capa Azul Turquesa"  width="300" height="auto" class="left-img"><br>
                 <p>Aqui fica disponível para Download gratuito alguns trabalhos da Azul Turquesa em boa qualidade para todos curtirem.<br><br>
