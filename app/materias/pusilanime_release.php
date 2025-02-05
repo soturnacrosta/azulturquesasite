@@ -274,7 +274,7 @@ try {
         <br><br></p>
           
         <div class="pusilanime-release">
-        <img src="../../assets/img/materias/pusilanime_release/soturna-e-efemera-pusilanime2.jpg" alt="Casa da pólvora" max width="400">
+        <img src="../../assets/img/materias/pusilanime_release/soturna-e-efemera-pusilanime2.jpg" alt="Casa da pólvora" max width="400" max height="300">
         <br>
 
             <p>Quatro epopéias compõem esse EP que sintetiza o que aprendemos nesses dois anos de projeto.

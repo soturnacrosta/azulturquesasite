@@ -108,6 +108,7 @@ main a {
     .destaque-img {
 
         display: flex;
+        max-height: 100% !important;
 
     }
 
@@ -198,16 +199,44 @@ main a {
     }
 
     .pusilanime-release {
-
         display: flex;
-
+        align-items: flex-start; 
+        gap: 20px;              
+        flex-wrap: wrap;         /* Permite que o texto vá para baixo quando necessário */
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
     }
 
+    /* Estilo da imagem */
     .pusilanime-release img {
-
-        margin-right: 16px
-
+        max-width: 400px;        /* Largura máxima para a imagem */
+        max-height: 300px;       
+        width: 100%;             
+        height: auto;            
+        object-fit: cover;       
+        flex-shrink: 0;          /* Mantém o tamanho da imagem em telas maiores */
     }
+
+    /* Estilo do texto */
+    .pusilanime-release p {
+        flex: 1;                 /* O texto ocupa o espaço restante ao lado da imagem */
+        line-height: 1.6;
+    }
+
+    /* Quando a tela for menor que 768px */
+    @media (max-width: 768px) {
+        .pusilanime-release {
+            flex-direction: column;  /* Empilha o texto abaixo da imagem */
+            align-items: center;     /* Centraliza o conteúdo */
+        }
+
+        .pusilanime-release p {
+            max-width: 90%;          /* Ajusta o texto para caber melhor na tela */
+            text-align: left;        
+        }
+    }
+
 
     .pusilanime-release-fotos {
         text-align: center; /* Centraliza horizontalmente */
