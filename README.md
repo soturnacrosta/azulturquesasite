@@ -355,11 +355,13 @@ Para futuras inserções de páginas, se atentar:
 
 - Inserir corretamente as tags das novas páginas, seus títulos, conteúdos e tudo que pedir para registrar; 
 
--Se atentar nas duas linhas de código de inserção e exibição de comentários, onde você manualmente deve associar o número do ID da página na linha. Busque por “substitua”, procure o ID no banco e inserte; 
+- Se atentar nas duas linhas de código de inserção e exibição de comentários, onde você manualmente deve associar o número do ID da página na linha. Busque por “substitua”, procure o ID no banco e inserte; 
 
 - Não esqueça dos metadados para redes sociais: colocar a URL da página, a imagem para compartilhamento e seus dados; 
 
-- Corrigir caminhos relativos. 
+- Corrigir caminhos relativos; 
+
+- O index.php deve ficar na raiz do htdocs.
 
 Bancos de dados: 
 
