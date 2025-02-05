@@ -52,7 +52,7 @@ Imagens devem conter legendas e legendas ocultas para rastreio no google imagens
 
  Design que transpareça a marca: escuro e denso. 
 
- 
+Observação: a entrega dos requisitos pode ser adaptada. Justificando-se previamente devido a inexperiência do autor quanto às necessidades que um projeto desse pode ou não vir a ter. Mas é necessário também uma justificativa futura para melhor corroborativa. 
 
 Sprint 1 
 
@@ -255,11 +255,13 @@ Dia 2:
 
 - Versões localhost e servidor online devidamente separadas. A versão localhost está sincronizada com o GitHub; 
 
-- O site está online para o mundo com o certificado SSL ativo. 
+- O site está online para o mundo com o certificado SSL ativo; 
+
+- Foram feitas validações com duas colaboras da qual utilizaram das funções back-end, votar na enquete, comentar e usar o mecanismo de busca e todas tiveram sua funcionalidade atestada. 
 
 Dia 3: 
 
--Corrigidos erros na página Sobre nós; 
+- Corrigidos erros na página Sobre nós; 
 
 - Páginas Primeiro ensaio em estúdio, Anacoreta – English Lyrics e Pusilânime: release oficial construídas; 
 
@@ -271,6 +273,111 @@ Dia 3:
 
 - Novo repositório remoto criado para atender as necessidades de segurança; 
 
-- Atualizações enviadas para o website para novos testes. 
+- Votos da enquete e comentários dos posts apagados; 
 
+- Atualizações enviadas para o website para novos testes; 
+
+- Testes foram feitos por um colaborador em sua máquina, utilizando as funções back-end e validando-as. 
+
+Revisão: Essa Sprint foi marcada pela transferência das matérias do antigo website e pela repaginação do design do projeto. Mas também, pela hospedagem online para validação das funções back-end e funcionamento front-end geral do website. Correção de erros também foram feitas. Para prosseguir, serão feitos os incrementos restantes para a entrega do projeto. 
+
+Retrospectiva: Essa Sprint teve vários êxitos no âmbito da hospedagem do website, na configuração do banco de dados, na transferência das matérias e na resolução de problemas. Mas não podemos ignorar alguns erros: o problema de vazamento de segurança nos commits para o GitHub, onde a solução foi excluir o repositório (os commits não estavam sendo excluídos com sucesso) e não ter dado tempo de entregar o requisito 6. 
+
+O requisito 4: Botão de mais postagens - não será mais utilizado no projeto pela inutilidade atual da mesma. O website não possui matérias suficientes para necessitar tal implementação agora e esse recurso será adotado em uma versão posterior a essa primeira versão de lançamento. 
+
+Incrementos:  
+
+-Hospedagem do website funcional com certificado SSL; 
+
+- Transferência completa das matérias do antigo website; 
+
+- Correção de erros; 
+
+- Melhorias no design; 
+
+- Divisão concreta entre versão local e versão web. 
+
+Evolução: O projeto agora possui novo repositório online, está hospedado devidamente em servidor web, possui todas as matérias devidas e seu design está de acordo com os requisitos exigidos. 
+
+Sprint 4: 
+
+Planejamento: Nessa Sprint será entregue o projeto. Faltando apenas dois pontos dos requisitos restando e todos os outros anteriormente entregues, é assegurada a entregue. Nessa Sprint será entregue o requisito: 
+
+6. Nos posts, fixar embaixo um resumo de post de escolha; 
+
+Onde serão construídos códigos e embutidos nas matérias. Será escolhida a matéria de destaque baseada na conjuntura atual da banda. 
+
+Dia 1: 
+
+-O site hospedado amanheceu alertando sobre problemas de valores nulos no banco de dados da enquete. Como foram resetados os votos para lançamento do site, na verdade foram excluídos, ficaram nulos. Os valores foram devidamente inseridos de volta para zero; 
+
+- Criada caixa com uma matéria em destaque: resumo, título, imagem e link e colocado em cada matéria. A matéria escolhida foi Pusilânime: Release Oficial; 
+
+- Correções visuais foram feitas; 
+
+- Desenvolvimento final da documentação entregue; 
+
+- Datas das publicações adicionadas à Home Page; 
+
+- Validações finais realizadas. 
+
+Revisão: Essa Sprint foi mais curta e marca a entrega do produto. Nela foram atendidas às exigências de funcionamento que faltavam. Agora, resta lançar o projeto oficialmente e incluir no portfólio do autor. 
+
+Retrospectiva: Em termos de composição foi bem rápido. Percebe-se a evolução quando ao final de um projeto você já sabe o que fazer e como fazer as coisas que restam. É isso o que o projeto procura me entregar: desenvoltura para resolver problemas, psicológico para tratá-los. Por toda a férias que o projeto existiu, aprendi como deveria me comportar num projeto complexo, como estudar, o quanto me dedicar por dia (me dedicava demais) e quando parar para respirar e voltar. Acredito que mesmo que na área de tecnologia da informação é importante se especializar em uma linguagem, experiências gerais assim, principalmente para quem está começando, é de inigualável valor. 
+
+Incrementos: 
+
+- Matéria em destaque em cada página de matéria; 
+
+- Documentação completa; 
+
+- Datas das publicações adicionadas à Home Page; 
+
+- Projeto entregue. 
+
+Evolução: Agora o website está funcionando em sua totalidade como previsto no começo. Todos os requisitos iniciais foram atendidos, com apenas uma adaptação no caminho. 
+
+NÃO FORAM ENTREGUES NESSE PROJETO:  
+
+- Botão de comentário e compartilhamento nos posts da Home Page, ficará para a próxima versão. Nesse momento não é necessário: por que o usuário iria compartilhar a matéria sem antes ler? 
+
+- Botão de mais postagens, ficará para a próxima versão do projeto quando perceber a necessidade dessa função; 
+
+- Caixas com posts das redes sociais no menu, pois não coube no layout; 
+
+Disclaimer: As legendas das imagens estão contidas no código e na nomeação do arquivo para serem rastreadas. 
+
+Manual de evolução: 
+
+Para futuras inserções de páginas, se atentar: 
+
+- Às linhas de código dos bancos de dados e suas credenciais. Existem três: uma para enquete, uma para inserir as tags e ID das páginas e uma para inserir e exibir comentários; 
+
+- Inserir corretamente as tags das novas páginas, seus títulos, conteúdos e tudo que pedir para registrar; 
+
+-Se atentar nas duas linhas de código de inserção e exibição de comentários, onde você manualmente deve associar o número do ID da página na linha. Busque por “substitua”, procure o ID no banco e inserte; 
+
+- Não esqueça dos metadados para redes sociais: colocar a URL da página, a imagem para compartilhamento e seus dados; 
+
+- Corrigir caminhos relativos. 
+
+Bancos de dados: 
+
+Existem dois bancos de dados para o projeto: uma para a enquete e outra para tudo relacionado à organização das páginas e seus comportamentos. 
+
+Banco de dado: enquete -> tabelas: enquetes & votos_ip. 
+
+enquetes guarda os votos e votos_ip guarda o endereço ip de quem vota para evitar votos duplos. 
+
+Banco de dado: tags -> tabelas: comentarios, paginas, pagina_tags & tags. 
+
+comentarios guarda os comentários baseado no ID da página.  
+
+paginas guarda o ID, título, conteúdo e o caminho relativo da pagina para ser redirecionado no mecanismo de busca; 
+
+tags guarda os rótulos ou tags das páginas para o usuário encontrar o conteúdo que deseja; 
+
+pagina_tags relaciona as tabelas tags e paginas. 
+
+Havendo a necessidade de utilização, contatar o autor. 
 
