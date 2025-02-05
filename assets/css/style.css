@@ -99,6 +99,22 @@ main a {
     color: inherit !important;        /* Garante que a cor seja herdada */
 
 }
+    .post-destaque {
+
+        background-color:rgba(37, 37, 37, 0.7);
+        padding: 20px;
+    }
+
+    .destaque-img {
+
+        display: flex;
+
+    }
+
+    .post-destaque img {
+
+        margin-right: 20px;
+    }
 
     .social-share {
         display: flex;

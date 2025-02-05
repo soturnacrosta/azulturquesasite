@@ -1157,7 +1157,21 @@ try {
             mysqli_close($con);
         ?>
 
+        <div class="post-destaque">
 
+        <h3>Postagem em destaque<h3><br>
+        <h2><b>Pusilânime: Release Oficial</b></h2><br>
+        <p>5 de Janeiro de 2024</p><br>
+        <div class="destaque-img">
+            <img src="../assets/img/materias/pusilanime_release/pusilanime-release.jpg" alt="Casa da pólvora" max width="200">
+            <p>É com imenso orgulho que a banda paraibana de Doom/Black Metal Azul Turquesa anuncia seu primeiro EP oficial intitulado Pusilânime. 
+            A banda com dois anos de existência vem criando progressivamente conhecimento de produção em home studio. O EP foi gravado e produzido no completo faça você mesmo, pelo duo formado pelos paraibanos Mailton "Soturna Cröstä" Lemos e Tamyres "Efêmera" Meireles. A banda já possui três singles e cinco demos lançados.
+            O lançamento do EP que conta com quatro faixas e 16 minutos de duração está programado para o dia 4 de janeiro de 2024 à meia noite e meia, horário que a lua entra em minguante.</p>
+        </div>
+        <br>
+        <a href="./materias/pusilanime_release.php">Ler Mais</a>
+        </div>
+        
     </main>
 
 <aside>
